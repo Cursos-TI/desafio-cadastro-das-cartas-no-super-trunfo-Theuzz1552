@@ -5,13 +5,13 @@ int main(){
 printf("Desafio Cartas Super Trunfo!\n");
 printf("Carta1\n");
 
-char estado[25];
-char codigo [25];
-char cidade[25];
-char população [25];
-float area;
-float PIB;
-int numero_de_pontos_turisticos;
+char estado[50], estado[50];
+char codigo[50], codigo[50];
+char cidade[50], cidade[50];
+int população, população;
+float area, area;
+float PIB, PIB;
+int NumeroPT, NumeroPT;
 
 printf("estado: ");
 scanf("%s", &estado);
@@ -23,7 +23,7 @@ printf("cidade: ");
 scanf("%s", &cidade);
 
 printf("população: ");
-scanf("%s", &população);
+scanf("%d", &população);
 
 printf("area: ");
 scanf("%f", &area);
@@ -31,11 +31,31 @@ scanf("%f", &area);
 printf("PIB: ");
 scanf("%f", &PIB);
 
-printf("numero_de_pontos_turisticos: ");
-scanf("%d", &numero_de_pontos_turisticos);
+printf("NumeroPT: ");
+scanf("%d", &NumeroPT);
 
+printf("Carta2\n");
 
+printf("estado: ");
+scanf("%s", &estado);
 
+printf("codigo: ");
+scanf("%s", &codigo);
+
+printf("cidade: ");
+scanf("%s", &cidade);
+
+printf("população: ");
+scanf("%d", &população);
+
+printf("area: ");
+scanf("%f", &area);
+
+printf("PIB: ");
+scanf("%f", &PIB);
+
+printf("NumeroPT: ");
+scanf("%d", &NumeroPT);
 
 
 }
