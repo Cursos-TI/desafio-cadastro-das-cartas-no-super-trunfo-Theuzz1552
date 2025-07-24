@@ -57,4 +57,6 @@ printf("NumeroPT: ");
 scanf("%d", &NumeroPT2 );
 
 
-return 0;} 
+return 0;
+
+} 
