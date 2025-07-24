@@ -5,14 +5,13 @@ int main(){
 printf("Desafio Cartas Super Trunfo!\n");
 printf("Carta1\n");
 
-char estado[25];
-char codigo [25];
-char cidade[25];
-char população [25];
-int numero_de_pontos_turisticos;
+char estado[50];
+char codigo[50];
+char cidade[50];
+int população;
 float area;
 float PIB;
-
+int NumeroPT;
 
 printf("estado: ");
 scanf("%s", &estado);
@@ -24,10 +23,7 @@ printf("cidade: ");
 scanf("%s", &cidade);
 
 printf("população: ");
-scanf("%s", &população);
-
-printf("numero_de_pontos_turisticos: ");
-scanf("%d", &numero_de_pontos_turisticos);
+scanf("%d", &população);
 
 printf("area: ");
 scanf("%f", &area);
@@ -35,9 +31,8 @@ scanf("%f", &area);
 printf("PIB: ");
 scanf("%f", &PIB);
 
-
-
-
+printf("NumeroPT: ");
+scanf("%d", &NumeroPT);
 
 
 }
